@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'faker'
 10.times do
-  Article.new(title: Faker::Book.title, content: Faker::Fantasy::Tolkien.poem)
+  Article.create(title: Faker::Book.title, content: Faker::Fantasy::Tolkien.poem)
 end
