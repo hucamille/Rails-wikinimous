@@ -1,3 +1,19 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.article {
+  margin: 20px 0;
+  h2 {
+    margin: 0;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
